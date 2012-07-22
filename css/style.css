@@ -1,14 +1,18 @@
 .info {
 display: block;
 float: right;
-margin-top: 74px;
-margin-right: 150px;
-}
+padding-right:6px;
+padding-left:6px;
+margin-top: 46px;
+margin-right:20px;
+border-top:thick double black;
+border-bottom:thick double black;
 
+}
 
 #social {
 display: block;
 float: right;
-margin-right: -148px;
-margin-top: -20px;
+padding-top:20px;
+padding-bottom:20px;
 }
