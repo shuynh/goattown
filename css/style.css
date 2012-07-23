@@ -15,4 +15,10 @@ display: block;
 float: right;
 padding-top:20px;
 padding-bottom:20px;
+padding-right:20px;
+}
+
+
+.tabs-left > .nav-tabs > li > a:hover {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
 }

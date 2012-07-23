@@ -10,8 +10,13 @@
     <title>Goat Town</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
     <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
+      <script type="text/javascript">
+        $('.carousel').carousel()
+      </script>  
+ 
   </head>
 
   <body>
@@ -47,7 +52,15 @@
           <div class="tab-pane active" id="main">
             <div class="row">
               <div class="span8 offset4">
-                <img src="http://placekitten.com/g/690/500">
+                <div id="myCarousel" class="carousel slide">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="active item"> <img src="http://placekitten.com/g/760/500"></div>
+                  </div>
+                  <!-- Carousel nav -->
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
             </div>
           </div>
       </div>
@@ -157,7 +170,7 @@
       </div>
  
   <div id="social">
-    <a href="http://www.opentable.com/goat-town-reservations-new-york?rid=66538&restref=66538"><img src="img/reserve.png"></a> <a href="http://www.facebook.com"><img src="img/fb.png"></a> <a href="http://www.twitter.com"><img src="img/twt.png"></a>
+    <a href="http://www.opentable.com/goat-town-reservations-new-york?rid=66538&restref=66538"><img src="img/reserve.png"></a> &nbsp; <a href="http://www.facebook.com"><img src="img/button_fb.png"></a> &nbsp; <a href="http://www.twitter.com"><img src="img/button_twitter.png"></a>
   </div>
  </div> 
 
