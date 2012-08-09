@@ -13,7 +13,8 @@
     <script type="text/javascript" src="js/jquery-latest.js"></script>
     <script type="text/javascript" src="js/bootstrap-tab.js"></script>
     <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
-      <script type="text/javascript">
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript">
         $('.carousel').carousel()
       </script>  
  
@@ -23,17 +24,17 @@
   
 <div class="container">
 
-<a class="brand" href="#">
+<a class="brand" href="index.html">
 <img src="img/logo.png">
 </a>
 
   <div class="info">
     <h5> <strong>511 EAST 5th STREET NY NY 10009 <span style="float:right;">(212) 687.3641</span></h5> 
-<br> 
     <h4> <strong>DINNER: 5</strong><i> pm to close</i>  &bull;  <strong>BRUNCH: 10</strong> <i>am</i> to <strong><i>4</strong> pm SATURDAY & SUNDAY</i> &bull; <strong> HAPPY HOUR: 5</strong><i> pm to</i> <strong> 7</strong><i>pm daily</i> </h4> 
 </div>
 
   <div class="tabbable tabs-left">
+    
     <ul class="nav nav-tabs">
       <li class="active" style="padding-top:20px;"><a href="#main" data-toggle="tab"><h6>MAIN</h6></a></li>
         <hr class="dotted" />
@@ -45,7 +46,7 @@
         <hr class="dotted" />
       <li><a href="#reservations" data-toggle="tab"><h6>RESERVATIONS</h6></a></li>
         <hr class="dotted" />
-      <li style="border-bottom:none;"><a href="#press" data-toggle="tab"><h6>PRESS</h6></a></li>
+      <li style="border-bottom:none;"><a href="#blog" data-toggle="tab"><h6>BLOG</h6></a></li>
     </ul>
 
       <div class="tab-content">
@@ -66,19 +67,101 @@
       </div>
 
       <div class="tab-pane" id="menus">
+              
             <div class="row">
-              <div class="span8 offset4">
-                <p>some menus mane.</p>
+              <div class="span5">  
+                <img src="http://placekitten.com/g/380/400">
+              </div> 
+              
+              <div class="span5" style=" padding-left: 50px;" >
+                <div id="text">
+                
+                  <div id="menu1" class="modal hide fade in" style="display: none; ">
+                      <div class="modal-header">
+                        <a class="close" data-dismiss="modal">×</a>
+                      </div>
+                      <div class="modal-body">
+                        <img src="assets/menus/dinner.jpg">
+                      </div>
+                  </div>
+                  <a data-toggle="modal" href="#menu1" >Dinner</a></p>
+
+
+                  <div id="menu2" class="modal hide fade in" style="display: none; ">
+                      <div class="modal-header">
+                        <a class="close" data-dismiss="modal">×</a>
+                      </div>
+                      <div class="modal-body">
+                        <img src="assets/menus/brunch.jpg">
+                      </div>
+                  </div>
+                  <a data-toggle="modal" href="#menu2" >Brunch</a></p>
+               
+
+                  <div id="menu3" class="modal hide fade in" style="display: none; ">
+                      <div class="modal-header">
+                        <a class="close" data-dismiss="modal">×</a>
+                      </div>
+                      <div class="modal-body">
+                        <img src="assets/menus/bb_new_wines.jpg">
+                      </div>
+                  </div>
+                  <a data-toggle="modal" href="#menu3" >Wine List</a></p>
+                  
+                  
+                  <div id="menu4" class="modal hide fade in" style="display: none; ">
+                      <div class="modal-header">
+                        <a class="close" data-dismiss="modal">×</a>
+                      </div>
+                      <div class="modal-body">
+                        <img src="assets/menus/cocktails.jpg">
+                      </div>
+                  </div>
+                  <a data-toggle="modal" href="#menu4" >Cocktails/Beer</a></p>
+                
+                  
+                  <div id="menu5" class="modal hide fade in" style="display: none; ">
+                      <div class="modal-header">
+                        <a class="close" data-dismiss="modal">×</a>
+                      </div>
+                      <div class="modal-body">
+                        <img src="assets/menus/desert.jpg">
+                      </div>
+                  </div>
+                  <a data-toggle="modal" href="#menu5" >Desert</a></p>
+                
+                  
+                  <div id="menu6" class="modal hide fade in" style="display: none; ">
+                      <div class="modal-header">
+                        <a class="close" data-dismiss="modal">×</a>
+                      </div>
+                      <div class="modal-body">
+                        <img src="assets/menus/hh.jpg">
+                      </div>
+                  </div>
+                  <a data-toggle="modal" href="#menu6" >Happy Hour</a></p>
+                
+                </div>
+              </div>
             </div>
-          </div>
       </div>
       
       <div class="tab-pane" id="about">
+      
             <div class="row">
-              <div class="span8 offset4">
-                <p>about this shit.</p>
+              <div class="span5">  
+                <img src="http://placekitten.com/g/380/412">
+              </div> 
+              
+              <div class="span5" style=" padding-left: 50px;" >
+                <div id="text">
+
+                <p>this is a restaurant lol</p>
+
+                </div>
+              </div>
             </div>
-          </div>
+      
       </div>
 
       <div class="tab-pane" id="directions">
@@ -87,9 +170,16 @@
                 <img src="img/directions.png">
               </div> 
               
-              <div class="span5" style=" padding-left: 70px;" >
-                <div id="text">
-                  <p>Here's how to get here, dummy</p>
+              <div class="span5" style=" padding-left: 50px;" >
+                <div id="text" style="font-size:12px;">
+                Goat Town is located in the East Village at<br> 511 East 5th Street, between Avenues A and B. <br>
+                We are located on the north side of the street.<br>
+                <br>
+                To get here by subway, we are closest to the <br>1st Ave/14th St L station and the 2nd Ave/E Houston F station. 
+                <br>
+                To get here by bus, take the M14A along Avenue A to East 5th Street, half a block away from Goat Town.
+                <br>
+                Please <a href="http://maps.google.com/maps?daddr=511+5th+Street,+New+York,+NY&hl=en&sll=40.676049,-73.998992&sspn=0.004923,0.009291&oq=511+E+5th+&t=m&mra=ls&z=16">click here</a> for directions
                 </div>
               </div>
             </div>
@@ -99,13 +189,13 @@
 
             <div class="row">
               <div class="span5">  
-                <img src="http://placekitten.com/g/380/500">
+                <img src="http://placekitten.com/g/380/400">
               </div> 
               
-              <div class="span5" style=" padding-left: 70px;" >
+              <div class="span5" style=" padding-left: 50px;" >
                 <div id="text">
 
-                <p>For reservations, please <a href="http://www.opentable.com/goat-town-reservations-new-york?rid=66538&restref=66538">click here</a></p>
+                <p>For reservations, please <br><a href="http://www.opentable.com/goat-town-reservations-new-york?rid=66538&restref=66538">click here</a></p>
                 <p>or call us at <a href'tel:212-687-3641'>212-687-3641</a></p>
 
                 </div>
@@ -147,24 +237,11 @@
           </div>
       </div>
  
-      <div class="tab-pane" id="gallery">
-            <div class="row">
-              <div class="span8 offset4">
-                <div id="text">
-                  gallery
-                  
-                </div>
-              </div>
-            </div>
-      </div>
       
       <div class="tab-pane" id="blog">
             <div class="row">
               <div class="span8 offset4">
-                <div id="text">
-                  BLOGGY
-                  
-                </div>
+                   <script type="text/javascript" src="http://goattownnyc.tumblr.com/js"></script>  
               </div>
             </div>
       </div>

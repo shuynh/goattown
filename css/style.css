@@ -1,9 +1,25 @@
+
+#text {
+text-align: center;
+line-height: 35px;
+font-size: 18px;
+font-family: Georgia;
+}
+
+.dotted {
+  border: 2px dotted black; 
+  border-style: none none dotted; 
+  margin-left:auto;
+  margin-right:83px;
+  width:20%;
+}
+
 .info {
 display: block;
 float: right;
 padding-right:6px;
 padding-left:6px;
-margin-top: 46px;
+margin-top: 54px;
 margin-right:20px;
 border-top:thick double black;
 border-bottom:thick double black;
@@ -18,7 +34,20 @@ padding-bottom:20px;
 padding-right:20px;
 }
 
+#bordertop{
+background: url(bordertop.png) top left no-repeat;
+width:100%;
+margin-top: -7px;
+padding-right: 50px;
+margin-left: -20px;
+}
+
+#tumblr_posts {
+text-align:center;
+}
+
 
 .tabs-left > .nav-tabs > li > a:hover {
-  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+color: #eeeeee #dddddd #eeeeee #eeeeee;
+
 }

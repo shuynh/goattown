@@ -228,7 +228,7 @@ a:hover {
 }
 
 .span5 {
-  width: 302px;
+  width: 310px;
 }
 
 .span4 {
@@ -543,6 +543,7 @@ ul {
 
 ol {
   list-style: decimal;
+text-align:center;
 }
 
 li {
@@ -3312,8 +3313,8 @@ input[type="submit"].btn.btn-mini {
 
 .nav-tabs > li {
   margin-bottom: -1px;
-  padding-bottom:8px;
-  padding-top:8px;
+  padding-bottom:4px;
+  padding-top:4px;
 }
 
 .nav-tabs > li > a {
@@ -3494,16 +3495,16 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-left > .nav-tabs {
   float: left;
-  margin-right: 32px;
+  width:202px;
+  height:440px;
+  margin-right: 16px;
   margin-left:-22px;
   padding-right:20px;
   padding-left:20px;
   padding-bottom:30px;
   text-align:center;
-  border: 1px solid #555;
- -moz-border-radius: 10px;
- -webkit-border-radius: 10px; 
-
+  background-image: url(border.png);
+  background-repeat: no-repeat;
 }
 
 .tabs-left > .nav-tabs > li > a {
@@ -4137,13 +4138,12 @@ input[type="submit"].btn.btn-mini {
 
 .modal {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  left: 42%;
   z-index: 1050;
-  width: 560px;
-  margin: -250px 0 0 -280px;
+  width: 808px;
+  margin: -300px 0 0 -300px;
   overflow: auto;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.3);
   *border: 1px solid #999;
@@ -4172,16 +4172,19 @@ input[type="submit"].btn.btn-mini {
 }
 
 .modal-header {
-  padding: 9px 15px;
-  border-bottom: 1px solid #eee;
+  padding-top: 9px;
+  padding-right: 6px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+
 }
 
 .modal-header .close {
-  margin-top: 2px;
+  margin-top: -10px;
 }
 
 .modal-body {
-  max-height: 400px;
+  max-height: 540px;
   padding: 15px;
   overflow-y: auto;
 }
@@ -4951,18 +4954,5 @@ a.badge:hover {
   visibility: hidden;
 }
 
-#text {
-text-align: center;
-line-height: 35px;
-font-size: 20px;
-}
-
-.dotted {
-  border: 2px dotted black; 
-  border-style: none none dotted; 
-  margin-left:auto;
-  margin-right:78px;
-  width:20%;
-}
 
 
