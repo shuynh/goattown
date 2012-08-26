@@ -11,7 +11,13 @@ font-family: Georgia;
 text-align: center;
 font-size: 13px;
 font-family: Georgia;
+}
 
+#about{
+text-align: center;
+font-size: 13px;
+font-family: Georgia;
+font-weight:normal;
 }
 
 .dotted {
