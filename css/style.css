@@ -1,3 +1,61 @@
+.menus{
+width: 72px;
+height:26px;
+display:block;
+background:transparent url('button_menus.png') center top no-repeat;
+}
+
+.menus:hover {
+background-image: url('hover_menus.png');
+}
+
+.about{
+width:72px;
+height:26px;
+display:block;
+background:transparent url('button_about.png') center top no-repeat;
+}
+
+.about:hover {
+background-image: url('hover_about.png');
+}
+
+
+.gallery{
+width:98px;
+height:26px;
+display:block;
+background:transparent url('button_gallery.png') center top no-repeat;
+}
+
+.gallery:hover {
+background-image: url('hover_gallery.png');
+}
+
+
+.directions{
+width:140px;
+height:26px;
+display:block;
+background:transparent url('button_directions.png') center top no-repeat;
+}
+
+.directions:hover {
+background-image: url('hover_directions.png');
+}
+
+
+.blog{
+width:50px;
+height:26px;
+display:block;
+background:transparent url('button_blog.png') center top no-repeat;
+}
+
+.blog:hover {
+background-image: url('hover_blog.png');
+}
+
 
 #text {
 text-align: center;
@@ -21,22 +79,32 @@ font-weight:normal;
 }
 
 .dotted {
-  border: 2px dotted black; 
-  border-style: none none dotted; 
-  margin-left:auto;
-  margin-right:83px;
-  width:20%;
+border: 0.2em dotted black; 
+border-style: none none dotted; 
+margin-left:auto;
+margin-right:43px;
+width:55%;
 }
 
 .info {
 display: block;
-float: right;
-padding-right:6px;
-padding-left:6px;
-margin-top: 54px;
-margin-right:20px;
-border-top:thick double black;
-border-bottom:thick double black;
+color:black;
+font-size:14px;
+letter-spacing:1px;
+padding-top:30px;
+padding-right:10px;
+
+}
+
+.hours {
+font-size:12px;
+line-height:20px;
+}
+
+.dot {
+float: left;
+margin-top: 10px;
+padding: 0px 14px
 
 }
 
@@ -56,12 +124,10 @@ padding-right: 50px;
 margin-left: -20px;
 }
 
-#tumblr_posts {
-text-align:center;
-}
 
+.tumblr_posts li { 
+padding-bottom:50px;
+list-style: none; 
+list-style-position: outside; 
+list-style-type: none; 
 
-.tabs-left > .nav-tabs > li > a:hover {
-color: #eeeeee #dddddd #eeeeee #eeeeee;
-
-}

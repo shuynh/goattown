@@ -156,7 +156,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: Georgia ;
+  font-family: Gotham, Proxima Nova, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
@@ -169,8 +169,9 @@ a {
 }
 
 a:hover {
-  color: #005580;
-  text-decoration: underline;
+  color: #bca474;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .row {
@@ -190,7 +191,7 @@ a:hover {
 
 [class*="span"] {
   float: left;
-  margin-left: 20px;
+  margin-left: 45px;
 }
 
 .container,
@@ -216,7 +217,7 @@ a:hover {
 }
 
 .span8 {
-  width: 684px;
+  width: 714px;
 }
 
 .span7 {
@@ -280,7 +281,7 @@ a:hover {
 }
 
 .offset4 {
-  margin-left: 20px;
+  margin-left: 100px;
 }
 
 .offset3 {
@@ -527,7 +528,7 @@ h6 {
 ul,
 ol {
   padding: 0;
-  margin: 0 0 9px 25px;
+  margin: 0 0 4px 25px;
 }
 
 ul ul,
@@ -542,7 +543,9 @@ ul {
 }
 
 ol {
-  list-style: decimal;
+height:472px;
+padding-top:10px;
+overflow-y:scroll;
 text-align:center;
 }
 
@@ -3308,13 +3311,14 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+padding-left:96px;
+border-top:thick double black;
+border-bottom:thick double black;
 }
 
 .nav-tabs > li {
-  margin-bottom: -1px;
-  padding-bottom:4px;
-  padding-top:4px;
+  margin-bottom: -6px;
+  margin-top:8px;
 }
 
 .nav-tabs > li > a {
@@ -3431,7 +3435,6 @@ input[type="submit"].btn.btn-mini {
 
 .tabbable {
   *zoom: 1;
-  margin-left:35px;
 }
 
 .tabbable:before,
@@ -3446,6 +3449,8 @@ input[type="submit"].btn.btn-mini {
 
 .tab-content {
   overflow: auto;
+  float:right;
+  margin-top:-510px;
 }
 
 .tabs-below > .nav-tabs,
@@ -3498,7 +3503,6 @@ input[type="submit"].btn.btn-mini {
   width:202px;
   height:460px;
   margin-right: 16px;
-  margin-left:-22px;
   padding-right:20px;
   padding-left:20px;
   padding-bottom:30px;
@@ -4822,6 +4826,7 @@ a.badge:hover {
   display: block;
   line-height: 1;
   height:486px;
+  border:1px;
 }
 
 .carousel .active,
