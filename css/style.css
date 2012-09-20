@@ -78,6 +78,14 @@ font-family: Georgia;
 font-weight:normal;
 }
 
+#menu-text{
+text-align: center;
+font-size: 13px;
+font-family: Georgia;
+font-weight:normal;
+padding-bottom: 20px;
+margin-left: -4px;
+}
 .dotted {
 border: 0.2em dotted black; 
 border-style: none none dotted; 
