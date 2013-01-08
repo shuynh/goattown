@@ -1,60 +1,71 @@
-.menus{
-width: 72px;
-height:26px;
-display:block;
-background:transparent url('button_menus.png') center top no-repeat;
+
+.menus {
+  background: url(menus_button.png) no-repeat 0 0;
+  display:inline-block;
+  width:80px;
+  height:8px;
+  text-indent: -9999px;
 }
 
 .menus:hover {
-background-image: url('hover_menus.png');
-}
+  background-position: 0 -25px;
+  outline:none;
+ }  
 
-.about{
-width:72px;
-height:26px;
-display:block;
-background:transparent url('button_about.png') center top no-repeat;
+.about {
+  background: url(about_button.png) no-repeat 0 0;
+  display:inline-block;
+  width:80px;
+  height:8px;
+  text-indent: -9999px;
 }
 
 .about:hover {
-background-image: url('hover_about.png');
-}
+  background-position: 0 -24px;
+  outline:none;
+ }  
 
 
-.gallery{
-width:98px;
-height:26px;
-display:block;
-background:transparent url('button_gallery.png') center top no-repeat;
+.gallery {
+  background: url(gallery_button.png) no-repeat 0 0;
+  display:inline-block;
+  width:98px;
+  height:8px;
+  text-indent: -9999px;
 }
 
 .gallery:hover {
-background-image: url('hover_gallery.png');
-}
+  background-position: 0 -24px;
+  outline:none;
+ }  
 
 
-.directions{
-width:140px;
-height:26px;
-display:block;
-background:transparent url('button_directions.png') center top no-repeat;
+.directions {
+  background: url(directions_button.png) no-repeat 0 0;
+  display:inline-block;
+  width:140px;
+  height:8px;
+  text-indent: -9999px;
 }
 
 .directions:hover {
-background-image: url('hover_directions.png');
-}
+  background-position: 0 -24px;
+  outline:none;
+ }  
 
 
-.blog{
-width:50px;
-height:26px;
-display:block;
-background:transparent url('button_blog.png') center top no-repeat;
+.blog {
+  background: url(blog_button.png) no-repeat 0 0;
+  display:inline-block;
+  width:50px;
+  height:8px;
+  text-indent: -9999px;
 }
 
 .blog:hover {
-background-image: url('hover_blog.png');
-}
+  background-position: 0 -25px;
+  outline:none;
+ }  
 
 
 #text {
@@ -110,7 +121,7 @@ line-height:20px;
 
 .dot {
 float: left;
-margin-top: 10px;
+margin-top: 12px;
 padding: 0px 14px
 
 }
